@@ -1,6 +1,8 @@
 # Monte Carlo Bits-Back Coding (McBits)
 This repository contains the official implementation for [Improving Lossless Compression Rates via Monte Carlo Bits-Back Coding](https://arxiv.org/abs/2102.11086) (ICML 2021 Oral).
 
+<p align="center"><img src="./figure.png" align="center" width="500" ></p>
+
 ## Setup
 Install the conda environment:
 ```
