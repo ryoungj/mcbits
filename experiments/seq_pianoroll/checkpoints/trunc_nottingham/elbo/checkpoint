@@ -1,0 +1,6 @@
+model_checkpoint_path: "/checkpoint/karenu/fivo/truncated_nottingham/elbo/model.ckpt-380001"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_nottingham/elbo/model.ckpt-377143"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_nottingham/elbo/model.ckpt-378085"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_nottingham/elbo/model.ckpt-379032"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_nottingham/elbo/model.ckpt-379976"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_nottingham/elbo/model.ckpt-380001"

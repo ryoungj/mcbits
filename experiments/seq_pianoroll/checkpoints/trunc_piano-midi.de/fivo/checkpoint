@@ -1,0 +1,6 @@
+model_checkpoint_path: "/checkpoint/karenu/fivo/truncated_piano-midi.de/fivo/model.ckpt-122001"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_piano-midi.de/fivo/model.ckpt-119734"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_piano-midi.de/fivo/model.ckpt-120316"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_piano-midi.de/fivo/model.ckpt-120909"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_piano-midi.de/fivo/model.ckpt-121512"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_piano-midi.de/fivo/model.ckpt-122001"

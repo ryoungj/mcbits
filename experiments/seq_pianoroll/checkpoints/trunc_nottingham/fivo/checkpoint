@@ -1,0 +1,6 @@
+model_checkpoint_path: "/checkpoint/karenu/fivo/truncated_nottingham/fivo/model.ckpt-740001"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_nottingham/fivo/model.ckpt-737860"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_nottingham/fivo/model.ckpt-738535"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_nottingham/fivo/model.ckpt-739215"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_nottingham/fivo/model.ckpt-739884"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_nottingham/fivo/model.ckpt-740001"

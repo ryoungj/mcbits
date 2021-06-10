@@ -1,0 +1,30 @@
+# ===== Experiments ===== #
+exp_name: train_bin_emnist
+logdir: './checkpoints'
+seed: 42
+gpu: 0 # use gpu 0
+
+# ===== Dataset ===== #
+datadir: ./data
+dataset: EMNIST
+split: mnist # mnist or letters
+binarize: True # dynamically binarizes MNIST
+workers: 4
+
+# ===== Model =========== #
+model: BinaryVAE
+latent_dim: 50
+
+# ===== Training ======== #
+optimizer: Adam
+lr: 0.001
+eps: 0.0001
+scheduler: multi_step  # multi-step lr scheduler as in the IWAE paper
+epochs: 3280
+batch_size: 20
+bound: IWAE
+num_particles: 1 # number of particles for IWAE training
+
+
+
+

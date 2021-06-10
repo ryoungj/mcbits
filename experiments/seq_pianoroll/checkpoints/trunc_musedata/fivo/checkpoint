@@ -1,0 +1,6 @@
+model_checkpoint_path: "/checkpoint/karenu/fivo/truncated_musedata/fivo/model.ckpt-104001"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_musedata/fivo/model.ckpt-102999"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_musedata/fivo/model.ckpt-103309"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_musedata/fivo/model.ckpt-103621"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_musedata/fivo/model.ckpt-103934"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_musedata/fivo/model.ckpt-104001"

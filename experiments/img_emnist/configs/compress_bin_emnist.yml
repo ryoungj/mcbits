@@ -1,0 +1,34 @@
+# ===== Experiments ===== #
+exp_name: compress_bin_emnist
+logdir: './checkpoints'
+seed: 42
+gpu: 0 # use gpu 0
+
+# ===== Dataset ===== #
+datadir: ./data
+dataset: EMNIST
+split: mnist # mnist or letters
+binarize: True # dynamically binarizes MNIST
+workers: 4
+
+# ===== Compressing ======== #
+train_config: ./checkpoints/train_bin_emnist_split=mnist_num=1/train_config.yml  # specify trained model config
+num_compress: 500  # maximum number of data samples for compressing
+batch_compute: False # whether batch the compute of conditional likelihood over particles
+decode_check: True # whether run decoding and check the correctness of decoded results
+batch_size: 100
+
+# ===== Coder & ANS ======== #
+coder: ISBitsBackCoder # coder used for compression, choices: StochasticCoder, BitsBackCoder, ISBitsBackCoder, CISBitsBackCoder
+num_particles: 1 # number of particles for compressing (for IS and CIS)
+lprec: 32
+bprec: 32
+log_num_bucket: 8
+prop_mprec: 16
+cond_mprec: 16
+prior_mprec: 8
+
+# ===== Iterative Inference ======== #
+iterative_post_improvement: False
+iterative_improvement_steps: 50
+iterative_improvement_lr: 0.01

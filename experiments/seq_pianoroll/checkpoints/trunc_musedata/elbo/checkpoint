@@ -1,0 +1,6 @@
+model_checkpoint_path: "/checkpoint/karenu/fivo/truncated_musedata/elbo/model.ckpt-88001"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_musedata/elbo/model.ckpt-86260"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_musedata/elbo/model.ckpt-86756"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_musedata/elbo/model.ckpt-87253"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_musedata/elbo/model.ckpt-87749"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_musedata/elbo/model.ckpt-88001"

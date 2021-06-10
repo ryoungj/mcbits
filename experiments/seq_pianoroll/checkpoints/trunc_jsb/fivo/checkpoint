@@ -1,0 +1,6 @@
+model_checkpoint_path: "/checkpoint/karenu/fivo/truncated_jsb/fivo/model.ckpt-280001"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_jsb/fivo/model.ckpt-277395"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_jsb/fivo/model.ckpt-278259"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_jsb/fivo/model.ckpt-279079"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_jsb/fivo/model.ckpt-279902"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_jsb/fivo/model.ckpt-280001"

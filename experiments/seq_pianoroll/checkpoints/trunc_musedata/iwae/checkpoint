@@ -1,0 +1,6 @@
+model_checkpoint_path: "/checkpoint/karenu/fivo/truncated_musedata/iwae/model.ckpt-92001"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_musedata/iwae/model.ckpt-90534"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_musedata/iwae/model.ckpt-90925"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_musedata/iwae/model.ckpt-91317"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_musedata/iwae/model.ckpt-91709"
+all_model_checkpoint_paths: "/checkpoint/karenu/fivo/truncated_musedata/iwae/model.ckpt-92001"

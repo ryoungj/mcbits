@@ -1,0 +1,30 @@
+# ===== Experiments ===== #
+exp_name: compress_trunc_pianoroll
+seed: 42
+gpu: 0 # use gpu 0
+
+# ===== MODEL ===== #
+latent_size: 32
+bound: elbo
+logdir: './checkpoints/trunc_jsb/elbo'
+
+# ===== Dataset ===== #
+datadir: ./datasets
+dataset: trunc_jsb
+workers: 4
+
+# ===== Compressing ======== #
+num_compress: 50  # maximum number of data samples for compressing
+decode_check: True # whether run decoding and check the correctness of decoded results
+
+# ===== Coder & ANS ======== #
+coder: SMCBitsBackCoder # coder used for compression, choices: StochasticCoder, BitsBackCoder, ISBitsBackCoder, CISBitsBackCoder
+num_particles: 1 # number of particles for BB-SMC
+lprec: 32
+bprec: 32
+log_num_bucket: 8
+prop_mprec: 16
+cond_mprec: 16
+prior_mprec: 16
+resample: False  # whether apply resampling for BB-SMC
+adaptive: False  # wether apply adpative resampling for BB-SMC
